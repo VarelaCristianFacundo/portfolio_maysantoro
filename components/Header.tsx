@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { Montserrat } from 'next/font/google';
-import Link from 'next/link';
 import { SocialIcon } from 'react-social-icons';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -74,7 +73,7 @@ function Header({ }: Props) {
                     className="cursor-pointer"
                     fgColor="#ddd4c6"
                     bgColor="transparent"
-                    url="https://music.apple.com/us/artist/girl-in-red/1349818950"
+                    url="https://music.apple.com/us/artist/may-santoro/1647251352"
                 />
                 {/* <SocialIcon 
                 className="cursor-pointer"
@@ -82,11 +81,11 @@ function Header({ }: Props) {
                 bgColor="transparent"
                 url="https://soundcloud.com/lyfsuxx"
             /> */}
-                <Link href="https://us.shopmaysantoro.com/" className='pl-6'>
+                {/* <Link href="https://us.shopmaysantoro.com/" className='pl-6'>
                     <div className={montserrat.className}>
                         <p className="lowercase hidden md:inline-flex text-sm tracking-[4px] text-[#ddd4c6]">shop</p>
                     </div>
-                </Link>
+                </Link> */}
 
 
             </motion.div>
