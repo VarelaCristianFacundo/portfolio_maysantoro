@@ -13,7 +13,7 @@ function About() {
     return (
         <div className={montserrat.className}>
             <motion.div
-                className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center"
+                className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 pt-40 h-screen justify-evenly mx-auto items-center"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1.5 }}
@@ -36,11 +36,8 @@ function About() {
                     <h4 className="text-3xl font-semibold"> DONDE {" "}
                         <span className="decoration-text-[#ddd4c6]/50 underline">EMPEZÓ</span>{" "}TODO
                     </h4>
-                    <p className="text-lg">Soy Maylen Santoro, una artista, cantante y compositora nacida en la vibrante escena musical de la Ciudad de Buenos Aires, Argentina. Mi pasión por la música me llevó a explorar y desenvolverme en géneros como el <span className="decoration-text-[#ddd4c6]/50 font-bold">Soul, Neo Soul, Blues, R&B, Funk y Jazz</span>, entre otros, siempre buscando transmitir emociones auténticas y conectar con quienes me escuchan.
-                        <br></br> <br></br>A lo largo de mi trayectoria, fuí y soy parte de diversas formaciones musicales, cada una aportando experiencias únicas que me enriquecieron como artista. Actualmente, estoy dedicada a desarrollar mi proyecto musical como solista, un sueño que comenzó a tomar forma con el lanzamiento de mi primer single, <span className="decoration-text-[#ddd4c6]/50 font-bold">Desperté</span>, en 2022.
-                        <br></br> <br></br>Mi música es mi lenguaje, mi forma de contar historias y expresar aquello que no siempre se puede decir con palabras. Cada canción es un reflejo de quién soy y de lo que busco compartir con el mundo.
-                        ¡Te invito a explorar mi universo musical y a acompañarme en este viaje!
-
+                    <p className="lg:text-lg md:text-xs">Soy Maylen Santoro, una artista, cantante y compositora nacida en la Ciudad de Buenos Aires, Argentina. Mi pasión por la música me llevó a explorar y desenvolverme en géneros como el <span className="decoration-text-[#ddd4c6]/50 font-bold">Soul, Neo Soul, Blues, R&B, Funk y Jazz</span>, entre otros, siempre buscando transmitir emociones auténticas y conectar con quienes me escuchan.
+                        <br></br>A lo largo de mi trayectoria, fuí y soy parte de diversas formaciones musicales, cada una aportando experiencias únicas que me enriquecieron como artista. Actualmente, estoy dedicada a desarrollar mi proyecto musical como solista, un sueño que comenzó a tomar forma con el lanzamiento de mi primer single, <span className="decoration-text-[#ddd4c6]/50 font-bold">Desperté</span>, en 2022.
                     </p>
                 </div>
             </motion.div>

@@ -68,7 +68,7 @@ function Projects() {
             transition={{ duration: 1.5 }}
             className="flex relative overflow-hidden flex-col text-left md:flex-row max-w-full h-screen justify-evenly mx-auto items-center z-0"
         >
-            <h3 className="absolute top-24 lowercase tracking-[20px] text-[#ddd4c6] text-2xl">
+            <h3 className="absolute top-24 tracking-[20px] text-[#ddd4c6] text-2xl">
                 Single
             </h3>
 

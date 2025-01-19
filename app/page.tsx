@@ -36,7 +36,7 @@ async function Home() {
 
 
       <Link href="#hero">
-        <footer className="sticky bottom-8 w-full cursor-pointer pb-[110px]">
+        <footer className="sticky bottom-8 w-full cursor-pointer pb-[90px]">
           <div className="flex items-center justify-center">
             <Image
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
