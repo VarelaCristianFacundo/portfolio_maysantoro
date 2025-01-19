@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "May Santoro",
-  description: "Marie Ulven Ringheim. Songwriter, Storyteller, Activist, Queer.",
+  description: "May Santoro. Cantante, Compositora, Productora musical, Artista, Vocalista",
 };
 
 export default function RootLayout(
